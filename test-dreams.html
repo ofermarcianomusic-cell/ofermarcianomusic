@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>בדיקת גודל</title>
+<style>
+  @font-face {
+    font-family: 'OHYael';
+    src: url('assets/fonts/OHYaelLeibushor2.0-Regular.woff2') format('woff2');
+    font-display: swap;
+  }
+  body {
+    margin: 0;
+    background: #2B2219;
+    color: #E4C285;
+    font-family: 'OHYael', cursive;
+    padding: 20px;
+  }
+  .row {
+    border-bottom: 1px solid #554433;
+    padding: 24px 0;
+  }
+  .label {
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+    direction: ltr;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  p {
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="label">A - font-size:1.6em, letter-spacing:0.05em (current live version)</div>
+  <p style="font-size:38.4px; letter-spacing:0.05em;">להגשים חלומות</p>
+</div>
+
+<div class="row">
+  <div class="label">B - font-size:1.6em, letter-spacing:0.12em</div>
+  <p style="font-size:38.4px; letter-spacing:0.12em;">להגשים חלומות</p>
+</div>
+
+<div class="row">
+  <div class="label">C - font-size:1.3em, letter-spacing:0.08em</div>
+  <p style="font-size:31.2px; letter-spacing:0.08em;">להגשים חלומות</p>
+</div>
+
+<div class="row">
+  <div class="label">D - font-size:1.9em (original, no spacing)</div>
+  <p style="font-size:45.6px; letter-spacing:0;">להגשים חלומות</p>
+</div>
+
+<div class="row">
+  <div class="label">E - font-size:1em, letter-spacing:0 (base quote size, for reference)</div>
+  <p style="font-size:24px; letter-spacing:0;">להגשים חלומות</p>
+</div>
+
+</body>
+</html>
